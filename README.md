@@ -8,7 +8,8 @@ A web application I created for my nephew who is interested in memorizing flags 
 Technologies and Concepts Used:
 HTML, CSS, and JavaScript: The front-end of this web application is built using standard web development technologies, ensuring a responsive and user-friendly interface.
 
-REST COUNTRIES API: To fetch country data, we utilize a RESTful API, ensuring up-to-date and accurate information.
+RESTful API: To fetch country data, we utilize a RESTful API, ensuring up-to-date and accurate information.
+https://restcountries.com/v3.1/all
 
 API Used:
 We retrieve country data from the REST Countries API, which provides comprehensive information about countries worldwide.
