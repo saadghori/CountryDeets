@@ -23,6 +23,8 @@ searchButton.addEventListener("click", () => {
                 <span>${data[0].currencies[Object.keys(data[0].currencies)].name} - ${Object.keys(data[0].currencies)[0]}</span></li>
                 <li class="info"><h4>Official Languages:</h4>
                 <span>${Object.values(data[0].languages).toString().split(",").join(", ")}</span></li>
+                <li class="info"><h4>Time zone:</h4>
+                <span>${data[0].timezones}</span></li>
             </ul>
          `;
     })
